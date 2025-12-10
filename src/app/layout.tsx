@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "Acimo - Scalable Navigation",
-    description: "World’s first scalable navigation device for all levels of visual loss",
+    title: "Acimo.ai",
+    description: "Bridging the AI divide for underserved populations",
 };
 
 export default function RootLayout({
