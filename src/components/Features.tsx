@@ -104,7 +104,7 @@ export default function FeatureGrid() {
                             transition={{delay: idx * 0.1}}
                             className="border-t-2 pt-8 border-neutral-100"
                         >
-                            <div className="text-6xl text-neutral-300 mb-8 font-sans">{step.id}</div>
+                            <div className="text-6xl text-neutral-400 mb-8 font-sans">{step.id}</div>
                             <h3 className="text-xl font-serif font-medium mb-4">{step.title}</h3>
                             <p className="text-neutral-500 text-sm leading-relaxed">{step.desc}</p>
                         </motion.div>

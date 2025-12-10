@@ -1,11 +1,6 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import {Newsreader, Playfair_Display} from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
-
-const googleSansFlex = localFont({ src: '../assets/GoogleSansFlex.ttf', variable: "--font-google-sans" });
-const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-newsreader" });
 
 export const metadata: Metadata = {
     title: "Acimo - Scalable Navigation",
@@ -19,7 +14,12 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body className={`${googleSansFlex.className} ${newsreader.variable} antialiased bg-white text-black`}>
+        <head>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+            </style>
+        </head>
+        <body className={"antialiased bg-white text-black"}>
         {children}
         </body>
         </html>
