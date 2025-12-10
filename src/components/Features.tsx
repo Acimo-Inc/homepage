@@ -50,7 +50,7 @@ export default function FeatureGrid() {
         <>
             <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto border-t border-neutral-100">
                 <div className="mb-16">
-                    <p className="text-sm font-mono mb-8 text-neutral-400 uppercase">Product</p>
+                    <p className="text-sm font-mono mb-16 text-neutral-400 uppercase">Product</p>
                     <h2 className="text-4xl md:text-5xl font-serif mb-8">Zodiac, L2-equivalent navigator</h2>
                     <p className="text-neutral-500 max-w-xl">
                         Zodiac makes you feel the world without crashing into it.
@@ -84,8 +84,8 @@ export default function FeatureGrid() {
                 </motion.div>
             </section>
             <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto border-t border-neutral-100">
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-20">
-                    <h2 className="text-4xl md:text-5xl font-serif max-w-2xl">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-24">
+                    <h2 className="text-4xl md:text-5xl font-serif max-w-3xl">
                         Zodiac is well-rounded in all aspects
                     </h2>
                     <button

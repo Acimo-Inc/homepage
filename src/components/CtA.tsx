@@ -4,7 +4,7 @@ import {BsArrowUpRight} from "react-icons/bs";
 
 export default function CallToAction() {
     return (
-        <section className="py-48 px-6 bg-white flex flex-col items-center justify-center text-center border-t border-neutral-100">
+        <section className="py-48 px-6 bg-white max-w-7xl w-full mx-auto flex flex-col items-center justify-center text-center border-t border-neutral-100">
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
