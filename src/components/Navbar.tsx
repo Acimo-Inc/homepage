@@ -4,7 +4,12 @@ import { motion } from "framer-motion";
 import {BsArrowUpRight} from "react-icons/bs";
 
 export default function Navbar() {
-    const links = ["Product", "Specifications", "Levels of Automation", "About"];
+    const links = [
+        {key: "Product", href: "#"},
+        {key: "Console", href: "/test"},
+        {key: "Levels of Automation", href: "#"},
+        {key: "About", href: "#"}
+    ];
 
     return (
         <motion.nav
@@ -16,8 +21,8 @@ export default function Navbar() {
 
             <div className="hidden md:flex space-x-8">
                 {links.map((link) => (
-                    <Link key={link} href="#" className="text-sm font-bold hover:text-neutral-600 transition-colors">
-                        {link}
+                    <Link key={link.key} href={link.href} className="text-sm font-bold hover:text-neutral-600 transition-colors">
+                        {link.key}
                     </Link>
                 ))}
             </div>
