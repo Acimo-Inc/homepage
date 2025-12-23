@@ -38,7 +38,6 @@ export default function ZodiacConsole() {
             const device = await navigator.bluetooth.requestDevice({
                 filters: [{ namePrefix: 'Zodiac' }],
                 optionalServices: [SERVICE_UUID],
-                // acceptAllDevices: true,
             });
 
             addLog(`Device found: ${device.name}`);
