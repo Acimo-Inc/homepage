@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import QandA from "@/components/QandA";
 import CallToAction from "@/components/CtA";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
             <div className="flex flex-col gap-10">
                 <Hero/>
                 <Features/>
+                <QandA/>
                 <CallToAction/>
             </div>
         </main>
