@@ -3,6 +3,7 @@ import {motion} from "framer-motion";
 import {FiLink, FiGlobe, FiUser, FiActivity} from "react-icons/fi";
 import Image from "next/image";
 import {BsArrowUpRight} from "react-icons/bs";
+import Link from "next/link";
 
 const features = [
     {
@@ -88,10 +89,12 @@ export default function FeatureGrid() {
                     <h2 className="text-4xl md:text-5xl font-serif max-w-3xl">
                         Zodiac is well-rounded in all aspects
                     </h2>
-                    <button
-                        className="bg-black md:mt-0 text-white px-6 py-4 rounded-full text-sm font-bold hover:bg-neutral-800 transition-colors flex items-center justify-center">
+                    <Link
+                        href="/product"
+                        className="bg-black md:mt-0 text-white px-6 py-4 rounded-full text-sm font-bold hover:bg-neutral-800 transition-colors flex items-center justify-center"
+                    >
                         Shop Now <BsArrowUpRight />
-                    </button>
+                    </Link>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">

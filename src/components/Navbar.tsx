@@ -5,7 +5,7 @@ import {BsArrowUpRight} from "react-icons/bs";
 
 export default function Navbar() {
     const links = [
-        {key: "Product", href: "/#zodiac-product"},
+        {key: "Product", href: "/product"},
         {key: "Console", href: "/test"},
         {key: "Levels of Automation", href: "/lan-vi"},
         {key: "About", href: "#"}
@@ -27,9 +27,9 @@ export default function Navbar() {
                 ))}
             </div>
 
-            <button className="bg-black text-white px-6 py-4 rounded-full text-sm font-bold hover:bg-neutral-800 transition-colors flex items-center justify-center">
+            <Link href="/product" className="bg-black text-white px-6 py-4 rounded-full text-sm font-bold hover:bg-neutral-800 transition-colors flex items-center justify-center">
                 Shop Now <BsArrowUpRight />
-            </button>
+            </Link>
         </motion.nav>
     );
 }
