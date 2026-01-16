@@ -57,6 +57,7 @@ export default function QandA() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     className="text-4xl md:text-5xl font-serif mb-8 text-neutral-900"
+                    style={{ fontFamily: "Georgia, serif" }}
                 >
                     Common Questions
                 </motion.h2>

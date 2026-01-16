@@ -5,9 +5,9 @@ import {BsArrowUpRight} from "react-icons/bs";
 
 export default function Navbar() {
     const links = [
-        {key: "Product", href: "#"},
+        {key: "Product", href: "/#zodiac-product"},
         {key: "Console", href: "/test"},
-        {key: "Levels of Automation", href: "#"},
+        {key: "Levels of Automation", href: "/lan-vi"},
         {key: "About", href: "#"}
     ];
 
@@ -17,7 +17,7 @@ export default function Navbar() {
             animate={{ y: 0, opacity: 1 }}
             className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-6 md:px-12 bg-white/80 backdrop-blur-md"
         >
-            <div className="text-3xl font-logo tracking-tight">Acimo</div>
+            <div className="text-3xl font-logo tracking-tight"><Link href="/">Acimo</Link></div>
 
             <div className="hidden md:flex space-x-8">
                 {links.map((link) => (

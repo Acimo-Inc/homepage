@@ -12,7 +12,7 @@ export default function Hero() {
                 transition={{duration: 0.6}}
                 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight max-w-5xl mx-auto mb-36 mt-12"
             >
-                World’s first scalable navigation device for all levels of visual loss
+                World’s first portable navigation device for all levels of visual loss
             </motion.h1>
 
             <motion.div
@@ -27,7 +27,7 @@ export default function Hero() {
                         bg-black overflow-hidden shadow-2xl">
                     <div
                         className="relative w-full h-full rounded-t-[1.2rem] rounded-b-none overflow-hidden bg-gray-100">
-                        <Image src="/placeholder.png" alt="Street Scene" fill className="object-cover"/>
+                        <Image src="/Zodiac V3.png" alt="Street Scene" fill className="object-cover object-[center_20%]"/>
                     </div>
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-3/5 bg-neutral-300 rounded-[2.5rem]"></div>

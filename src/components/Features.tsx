@@ -48,7 +48,7 @@ const steps = [
 export default function FeatureGrid() {
     return (
         <>
-            <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto border-t border-neutral-100">
+            <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto border-t border-neutral-100" id="zodiac-product">
                 <div className="mb-16">
                     <p className="text-sm font-mono mb-16 text-neutral-400 uppercase">Product</p>
                     <h2 className="text-4xl md:text-5xl font-serif mb-8">Zodiac, L2-equivalent navigator</h2>
@@ -78,9 +78,9 @@ export default function FeatureGrid() {
                     initial={{opacity: 0}}
                     whileInView={{opacity: 1}}
                     viewport={{once: true}}
-                    className="w-full relative aspect-[2/1] rounded-3xl overflow-hidden bg-neutral-100"
+                    className="w-full relative aspect-[20/9] rounded-3xl overflow-hidden bg-neutral-100"
                 >
-                    <Image src="/placeholder.png" alt="Street Scene" fill className="object-cover" />
+                    <Image src="/app-preview.png" alt="Street Scene" fill className="object-cover" />
                 </motion.div>
             </section>
             <section className="py-24 px-6 md:px-12 max-w-7xl mx-auto border-t border-neutral-100">
@@ -117,7 +117,7 @@ export default function FeatureGrid() {
                     viewport={{once: true}}
                     className="w-full relative aspect-[2/1] rounded-3xl overflow-hidden bg-neutral-100"
                 >
-                     <Image src="/placeholder.png" alt="Street Scene" fill className="object-cover" />
+                     <Image src="/phone clamp.png" alt="Street Scene" fill className="object-cover" />
                 </motion.div>
             </section>
         </>
