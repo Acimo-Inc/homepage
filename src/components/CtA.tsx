@@ -25,14 +25,16 @@ export default function CallToAction() {
             </motion.p>
 
             <motion.a
-                href="/product"
+                href="https://calendly.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
                 className="bg-black text-white px-10 py-4 rounded-full text-lg font-medium hover:scale-105 transition-transform duration-200 flex items-center justify-center"
             >
-                Shop Now <BsArrowUpRight />
+                Contact (Calendly.com) <BsArrowUpRight />
             </motion.a>
         </section>
     );
